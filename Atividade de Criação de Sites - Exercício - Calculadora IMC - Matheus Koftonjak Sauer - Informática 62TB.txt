@@ -1,0 +1,14 @@
+var peso = prompt("Informe o seu peso:")
+var altura = prompt("Informe a sua altura:")
+var imc = peso/(altura**altura)
+if (imc < 17){
+    alert("MAGREZA")
+} else if (imc => 18.5 && imc < 24.9){
+    alert("NORMAL")
+} else if (imc => 25 && imc < 29.9){
+    alert("SOBREPESO")
+} else if (imc => 30 && imc < 39.9){
+    alert("OBESIDADE")
+} else{
+    alert("OBESIDADE GRAVE")
+}
